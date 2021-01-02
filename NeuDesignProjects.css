@@ -1,0 +1,363 @@
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Trebuchet MS, sans-serif;
+    }
+
+    /*website*/
+    .seite {
+        width: 100%;
+        height: 100vh;
+        background: #0f8a9d;
+        background: linear-gradient(90deg, #112C61 , white ); 
+        clip-path: polygon(0% 5%, 100% 0%, 100% 90%, 0% 100%) !important;
+    }
+
+    /*headline 4*/
+    h4{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /*paragraph text*/
+    p1{
+        text-align: center;
+    }
+
+    /*navigationbar*/
+    nav{
+        width: 100%; 
+        height: 100px;
+        display: flex; 
+        color: white;  
+    }
+
+    /*headline logo one*/
+    .logo{
+        padding: 40px;
+        font-size: 30px;
+        width: 50%;
+        height: 100px;
+    }
+
+    /*headline logo*/
+    .logo h1{
+        line-height: 100px;
+        padding-left: 70px;
+        padding-top: 15px;
+    }
+
+    /*Menu right side*/
+    .menu{
+        width: 50%; 
+        height: 100px;
+        color: #112C61;
+        text-decoration: none !important;
+    }
+
+    /*Menu content headlines*/
+    a{
+        text-decoration: none;
+        color: #112C61;
+        font-size: 19px;
+    }
+
+    /*Menu content headlines*/
+    a:hover{
+        text-decoration: none;
+        color: #112F94;
+        font-size: 19px;
+    }
+
+    /*Menüleiste rechts*/
+    .menu ul{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:  center;
+    }
+
+    /*Menüleiste rechts Inhalt*/
+    .menu ul li{
+        list-style: none;
+        font-weight: 650;
+        text-transform: lowercase;
+    }
+
+    /*webiste content all*/
+    section{ 
+        display: flex;  
+    }
+
+    .leftside {
+        width: 45%;
+        height: auto; 
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+    /*Image on the left side (account)*/
+    .leftside img{
+        width: 900px; 
+        height: 580px;
+        margin: 20px;
+        border-radius: 15px
+    }
+
+    /*content right side*/
+    .rightside{
+        width: 55%;
+        height: 300px; 
+        color: #112C61; 
+        text-align: center; 
+        margin-top: 80px; 
+        padding: 40px;
+    }
+
+    /*headline right side*/
+    .rightside h1{ 
+        text-align: center;
+        color: #112C61;
+        font-size: 50px;
+        font-weight: 900;
+    } 
+
+    /*text right side*/
+    .rightside p {  
+        font-size: 20px;
+        padding: 30px 0; 
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /*Instagram Button*/
+    .rightside button{  
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        background-color:  #112C61; 
+        border-radius: 20px;
+        padding: 20px 35px ;
+        cursor: pointer;
+    }
+
+    /*Instagram Button hover*/
+    .rightside button:hover{
+        background-color: #FFFFFF;   
+        border-color: #112C61;
+        color: #112C61;
+    }
+
+
+    /*Images*/
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .main{
+        height: 30vh;
+        background: white;
+        margin: 10px;
+        padding: 25px;
+    }
+
+    .box{
+        width: 520px;
+        height: 350px;
+        position: relative;
+        cursor: pointer;
+        margin: 40px;
+        overflow: hidden;
+    }
+
+    .box img{
+        width: 100%;
+        height: 100%;
+        transition: all .5s;
+    }
+
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        background: rgba(17, 44, 97,0.7);
+        flex-direction: column;
+        color: white;
+        clip-path: circle(0% at 50% 50%);
+        transition: all .5s;
+    }
+
+    .box:hover .content{
+        clip-path: circle(100% at 50% 50%);
+    }
+
+    .box:hover img{
+        filter: blur(2px);
+        transform: scale(1.2);
+    }
+
+    .content p{
+        margin: 10px 0 0 15px;
+    }
+
+
+    /* Footer Website */
+    footer {
+        background: linear-gradient(9deg, white , #112C61 );
+        color: white ;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        clear: both;
+        font-size: 18px;
+    }
+
+    #posts{
+        width: 900px; 
+        height: 1010px;
+        margin: 20px;
+        border-radius: 15px
+    }
+
+/*WHO AM I SUBPAGE*/
+
+    /*content left side*/
+    .leftsideWhoAmI{
+        width: 55%;
+        height: 300px; 
+        color: #FFFFFF; 
+        text-align: center; 
+        margin-top: 80px; 
+        padding: 40px;
+    }
+
+    /*headline left side*/
+    .leftsideWhoAmI h1{ 
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 50px;
+        font-weight: 900;
+    } 
+
+    /*text left side*/
+    .leftsideWhoAmI p {  
+        font-size: 20px;
+        padding: 30px 0; 
+        font-weight: 600;
+        text-align: left;
+    }
+
+    /*Instagram Button*/
+    .leftsideWhoAmI button{  
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        background-color:  #112C61; 
+        border-radius: 20px;
+        padding: 20px 35px ;
+        cursor: pointer;
+    }
+
+    /*Instagram Button hover*/
+    .leftsideWhoAmI button:hover{
+        background-color: #FFFFFF;   
+        border-color: #112C61;
+        color: #112C61;
+    }
+
+/*screenshot account*/
+    #whoami{
+        width: 870px; 
+        height: 800px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    #whoami:hover{
+        transform: scale(1.02);
+    }
+
+    .languages{
+        padding: 15px;
+        background-color: white;
+        color: #112C61;
+        border-radius: 10px;
+     
+    }
+
+
+/*Projects subpage*/
+
+    #pro{
+        padding: 90px;
+        width: 750px; 
+        height: 600px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+
+    .wholeside {
+            width: 95%;
+            height: auto; 
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        text-align: center;
+        }
+
+    .nocontentnow{
+            padding: 15px;
+            background-color: white;
+            color: #112C61;
+            border-radius: 10px;
+            height: 30vh;
+        font-size: 20px;
+        text-align: center;
+
+        }
+
+    .nocontentnow p{
+        margin-top: 150px;
+        font-style: italic;
+    }
+
+
+/*Instagram Button*/
+    .wholeside button{  
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        background-color:  #112C61; 
+        border-radius: 20px;
+        padding: 20px 35px ;
+        cursor: pointer;
+        
+    }
+
+    /*Instagram Button hover*/
+    .wholeside button:hover{
+        background-color: #FFFFFF;   
+        border-color: #112C61;
+        color: #112C61;
+    }
+
+
+
+
